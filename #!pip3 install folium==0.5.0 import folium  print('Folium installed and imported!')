@@ -1,0 +1,10 @@
+#!pip3 install folium==0.5.0
+import folium
+
+print('Folium installed and imported!')
+
+# Create a map centered around Ciudad de Mexico with an appropriate zoom level
+ciudad_de_mexico_map = folium.Map(location=[19.429809, -99.127182], zoom_start=12)
+
+# Display the map
+ciudad_de_mexico_map
